@@ -13,7 +13,7 @@ conf = {
     'security.protocol': 'SASL_SSL',
     'sasl.mechanisms': 'PLAIN',
     'sasl.username': '$ConnectionString',
-    'sasl.password': 'Endpoint=sb://ehnamespace-kafka.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=your_shared_access_key_here',
+    'sasl.password': 'Endpoint=sb://ehnamespace-kafka.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=c2nNhCQl+5k70RZ2XhsvjDdh18g1kmtyM+AEhEh6/Dk=',
     'client.id': 'weather-producer'
 }
 
@@ -27,7 +27,7 @@ cities = [
     {"name": "Hue", "lat": 16.4637, "lon": 107.5909}
 ]
 
-API_KEY = "your_openweathermap_api_key_here"  # Thay bằng API key của bạn
+API_KEY = "4c0829d9af22e331e6c0012dbcbb736b"
 vietnam_tz = pytz.timezone('Asia/Ho_Chi_Minh')
 
 
