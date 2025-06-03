@@ -27,7 +27,7 @@ cities = [
     {"name": "Hue", "lat": 16.4637, "lon": 107.5909}
 ]
 
-API_KEY = "4c0829d9af22e331e6c0012dbcbb736b"
+API_KEY = "your_openweathermap_api_key" 
 vietnam_tz = pytz.timezone('Asia/Ho_Chi_Minh')
 
 
